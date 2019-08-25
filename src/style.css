@@ -1,1 +1,117 @@
-/* Acá va tu código */
+*{
+    background-color: black;
+    color:whitesmoke;
+    font-family: monospace;
+}
+
+/*BIENVENIDA*/
+
+header{
+    font-size: 25px;
+    letter-spacing: 35px;   
+    /*Propiedades del parrafo*/
+    text-align: center;    
+}
+
+h2{
+    /*Propiedades del espacio*/
+    padding-left: 50%;
+    line-height: 95%;
+    /*Propiedades de la fuente*/
+    font-size: 90px;
+}
+
+.primerparrafo{
+    /*Propiedades del espacio*/
+    padding: 0% 50% 5% 7%;
+    /*Propiedades de la fuente*/
+    font-size: 16px;
+    /*Propiedades del parrafo*/
+    text-align: right;
+}
+
+.mensajeinicio{
+    /*Propiedades del espacio*/
+    background-color:  darkred;
+    padding: 3% 0% 3% 0%;
+    /*Propiedades de la fuente*/
+    font-size: 15px;
+    /*Propiedades del parrafo*/
+    text-align: center; 
+}
+
+/*SECCION CREAR*/
+
+.crear{
+    /*Propiedades del espacio*/
+    padding-left: 50%;
+    line-height: 90%;
+    /*Propiedades de la fuente*/
+    font-size: 65px;
+}
+
+.instrucciones{
+    /*Propiedades del espacio*/
+    padding-left: 3%;
+    margin-left: 9%;
+    margin-right: 3%;
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+    /*Propiedades de la fuente*/
+    font-size: 15px;
+    /*Propiedades del párrafo*/
+    text-align: justify;
+}
+
+.ingresotexto{
+    /*Propiedades del espacio*/
+    display: inline-block;
+    width: 42%;
+    /*Propiedades de la fuente*/
+    font-size: 13px;
+    /*Propiedades del párrafo*/
+    text-align: left;
+}
+
+.estilotextarea{
+    /*Propiedades de la caja*/
+    border: 2px double darkred;
+}
+
+/*SECCIÓN LEER*/
+
+.leer{
+    /*Propiedades del espacio*/
+    padding-right: 50%;
+    line-height: 90%;
+    margin-right: 3%;
+    /*Propiedades de la fuente*/
+    font-size: 65px;
+    /*Propiedades del párrafo*/
+    text-align: right;
+}
+
+.leertexto{
+    /*Propiedades del espacio*/
+    display: inline-block;
+    width: 42%;
+    margin-left: 5%;
+    /*Propiedades de la fuente*/
+    font-size: 13px;
+    /*Propiedades del párrafo*/
+    text-align: right;
+}
+
+.instruccionesleer{
+    /*Propiedades del espacio*/
+    display: inline-block;
+    margin-right: 9%;
+    padding-left: 55%;
+    width: 42%;
+    vertical-align: top;
+    /*Propiedades de la fuente*/
+    font-size: 15px;
+    /*Propiedades del párrafo*/
+    text-align: justify;
+}

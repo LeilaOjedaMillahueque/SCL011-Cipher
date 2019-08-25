@@ -1,15 +1,78 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="root">
+
+    <!--BIENVENIDA-->
+    <header><strong> COMISIÓN FUNA </strong></header>
+    <h2>SIN JUSTICIA, HAY FUNA</h2>
+    <div class="primerparrafo">
+      <p>La FUNA nace como respuesta a las graves violaciones de <strong> DD.HH </strong>cometidas durante la dictadura militar, y la impunidad que les otorgan las leyes.</p>
+      <p>Nuestra organización busca generar <strong>reflexión</strong> y propuestas para rescatar el<strong> cuestionamiento</strong> esencial de las personas, como una <strong>forma de cambiar las condiciones políticas, económicas y sociales</strong> que no nos permiten vivir dignamente.</p>
     </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+    <p class="mensajeinicio">Aquí tenemos una plataforma segura para organizar las reuniones y concentraciones de los próximos días.<br/>Sigue las instrucciones detalladamente y cuidémonos entre todxs!</p>
+    
+    <!--SECCION CREAR-->
+    <h3 class="crear">Difundir una concentración</h3>
+    <div class="instrucciones">
+      <p>- Escribe <strong> SOLO CON LETRAS</strong> hora, lugar y causa de la concentración (no se admite la letra Ñ, números ni carácteres especiales)</p>
+      <p>- Al momento de compartir el mensaje <strong> NO OLVIDES</strong> mencionar la región donde será la concentración, o tus amigxs no podrán leer tu invitación.</p>
+    </div>
+    <div class="ingresotexto">
+      <!--Textarea-->
+      <p><textarea class="estilotextarea" id="texto1" placeholder="Ingresa HORA, LUGAR y CAUSA (sólo con LETRAS)" rows="10" cols="70"></textarea></p> 
+      <!--Offset-->
+      <p><strong>Selecciona tu región:</strong><br/> Es importante que la menciones al momento de enviar el mensaje.</p>
+      <select id="region" name="region">
+        <option value="2">RM zona Norte</option>
+        <option value="4">RM zona Sur</option>
+        <option value="6">RM zona Este</option>
+        <option value="8">RM zona Oeste</option>
+        <option value="10">RM zona Centro</option>
+      </select>
+      <!--Botón-->
+      <button id="mostrartexto1">Crear invitación</button>
+      <!--Resultado-->
+      <p>COPIA EL SIGUIENTE MENSAJE PARA SU DIFUSIÓN</p>
+      <p id="mostrartextofinal1"></p>
+    </div>
+
+    <!--SECCION LEER-->
+    <h3 class= "leer">Aceptar una invitación</h3>    
+    <!--Textarea-->
+    <div class="leertexto">
+      <p><textarea class="estilotextarea" id="texto2" placeholder="Ingresa HORA, LUGAR y CAUSA (sólo con LETRAS)" rows="10" cols="70"></textarea></p>
+      <!--Offset-->
+      <p><strong>Selecciona tu región:</strong><br/> Te la debe haber mencionado quien te envió la invitación.</p>
+      <select id="region2" name="region">
+        <option value="2">RM zona Norte</option>
+        <option value="4">RM zona Sur</option>
+        <option value="6">RM zona Este</option>
+        <option value="8">RM zona Oeste</option>
+        <option value="10">RM zona Centro</option>
+      </select>
+      <!--Botón-->
+      <button id="mostrartexto2">Mostrar invitación</button>
+      <!--Resultado-->
+      <p>SIEMPRE PORTA TU C.I AL ASISTIR A UNA CONCENTRACIÓN</p>
+      <p id="mostrartextofinal2"></p>
+    </div>
+
+    <div class="instruccionesleer">
+        <p>- Copia y pega la invitación que te enviaron.</p>
+        <p>- <strong>NO OLVIDES</strong> seleccionar la región donde será la concentración, o no podrás leer la invitación.</p>
+    </div>
+
+  </div>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>
