@@ -18,20 +18,5 @@
     "mocha": "^5.1.1",
     "nyc": "^13.1.0",
     "opener": "^1.4.3"
-  },
-  "description": "Aplicación web para cifrar y descifrar mensajes utilizados para la difusión de concentraciones y reuniones organizadas por Comisión Funa, organización nacional que \"funa\" a personas e instituciones que han cometidos faltas graves a los Derechos Humanos, y que por las actuales circusntancias y leyes del país viven en completa libertad e impunidad.",
-  "directories": {
-    "test": "test"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LeilaOjedaMillahueque/SCL011-Cipher.git"
-  },
-  "keywords": [],
-  "author": "",
-  "bugs": {
-    "url": "https://github.com/LeilaOjedaMillahueque/SCL011-Cipher/issues"
-  },
-  "homepage": "https://github.com/LeilaOjedaMillahueque/SCL011-Cipher#readme"
+  }
 }
