@@ -44,74 +44,48 @@ h2{
 
 .crear{
     /*Propiedades del espacio*/
-    padding-left: 50%;
+    margin-right: 50%;
     line-height: 90%;
+    margin-left: 3%;
     /*Propiedades de la fuente*/
     font-size: 65px;
+    text-align: right;
 }
 
 .instrucciones{
-    /*Propiedades del espacio*/
-    padding-left: 3%;
-    margin-left: 9%;
-    margin-right: 3%;
-    width: 35%;
-    display: inline-block;
-    vertical-align: top;
+    margin-right: 50%;
+    line-height: 98%;
+    margin-left: 10%;
     /*Propiedades de la fuente*/
     font-size: 15px;
-    /*Propiedades del párrafo*/
     text-align: justify;
-}
-
-.ingresotexto{
-    /*Propiedades del espacio*/
-    display: inline-block;
-    width: 42%;
-    /*Propiedades de la fuente*/
-    font-size: 13px;
-    /*Propiedades del párrafo*/
-    text-align: left;
 }
 
 .estilotextarea{
     /*Propiedades de la caja*/
     border: 2px double darkred;
+    resize: none;
+    text-transform: uppercase;
+    margin-left: 7%
 }
 
 /*SECCIÓN LEER*/
 
 .leer{
     /*Propiedades del espacio*/
-    padding-right: 50%;
+    padding-left: 50%;
     line-height: 90%;
-    margin-right: 3%;
     /*Propiedades de la fuente*/
     font-size: 65px;
-    /*Propiedades del párrafo*/
-    text-align: right;
-}
-
-.leertexto{
-    /*Propiedades del espacio*/
     display: inline-block;
-    width: 42%;
-    margin-left: 5%;
-    /*Propiedades de la fuente*/
-    font-size: 13px;
-    /*Propiedades del párrafo*/
-    text-align: right;
+    width: 45%;
 }
 
 .instruccionesleer{
-    /*Propiedades del espacio*/
-    display: inline-block;
-    margin-right: 9%;
-    padding-left: 55%;
-    width: 42%;
-    vertical-align: top;
+    margin-left: 50%;
+    line-height: 98%;
+    margin-right: 10%;
     /*Propiedades de la fuente*/
     font-size: 15px;
-    /*Propiedades del párrafo*/
     text-align: justify;
 }
